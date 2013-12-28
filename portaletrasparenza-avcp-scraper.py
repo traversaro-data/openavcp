@@ -27,11 +27,15 @@ import getopt
 import subprocess
 import xml.dom.minidom
 import codecs
+import datetime
 
 
 #Year to scrape
 years_to_download = range(2011,2015)
 months_in_a_year = range(1,13)
+
+github_username = "username"
+github_password = "password"
 
 #from http://stackoverflow.com/questions/16694907/how-to-download-large-file-in-python-with-requests-py
 def download_file(url,filename=""):
@@ -52,6 +56,14 @@ def xml_filename(year,month):
     return "avcp_contracts_"+str(year)+"_"+'%02d' % month+".xml";
 
 def push_data_to_github():
+    for year in years_to_download:
+        for month in months_in_a_year:
+            subprocess.call(["git","add",xml_filename(year,month)])
+    
+    commit_msg = "Data updated at " + datetime.datetime.now().isoformat()
+    subprocess.call(["git","commit","-m",commit_msg])
+    subprocess.call(["git","push"])
+ 
     return
   
 def indent_data():
@@ -64,9 +76,6 @@ def indent_data():
             f = codecs.open(filename,'w','utf-8')
             f.write(pretty_xml_as_string)
             f.close()
-
-
-    
 
 def download_data():
     '''Download all the data available in AVCP http://portaletrasparenza.avcp.it
@@ -103,6 +112,11 @@ def main():
         if o in ("-h", "--help"):
             print(__doc__)
             sys.exit(0)
+        if o == "--github_user":
+            print("Using github user " + a)
+        if o == "--github_password":
+            print("Using github password " + a)
+            
     # process arguments
     for arg in args:
         process(arg) # process() is defined elsewhere
