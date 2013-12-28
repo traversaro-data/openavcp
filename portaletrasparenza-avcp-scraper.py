@@ -36,6 +36,7 @@ months_in_a_year = range(1,13)
 
 github_username = "username"
 github_password = "password"
+git_email = "pegua1@hotmail.com"
 
 #from http://stackoverflow.com/questions/16694907/how-to-download-large-file-in-python-with-requests-py
 def download_file(url,filename=""):
@@ -62,6 +63,7 @@ def push_data_to_github():
     
     commit_msg = "Data updated at " + datetime.datetime.now().isoformat()
     subprocess.call(["git","commit","-m",commit_msg])
+    subprocess.call(["git","config","user.email",git_email])
     subprocess.call(["git","push"])
  
     return
