@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<legge190:pubblicazione xmlns:legge190="legge190_1_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="legge190_1_0 datasetAppaltiL190.xsd">
+  <metadata>
+    <titolo>pubblicazione</titolo>
+    <abstract>pubblicazione</abstract>
+    <dataPubbicazioneDataset>2013-12-28</dataPubbicazioneDataset>
+    <entePubblicatore>AVCP</entePubblicatore>
+    <dataUltimoAggiornamentoDataset>2013-12-28</dataUltimoAggiornamentoDataset>
+    <annoRiferimento>2013</annoRiferimento>
+    <urlFile>www.portaletrasparenza.avcp.it</urlFile>
+    <licenza>IODL</licenza>
+  </metadata>
+  <data>
+    
+
+
+    <lotto>
+      <cig>48341567B9</cig>
+      <strutturaProponente>
+        <codiceFiscaleProp>00727690141</codiceFiscaleProp>
+        <denominazione>AZIENDA SANITARIA LOCALE DELLA PROVINCIA DI SONDRIO</denominazione>
+      </strutturaProponente>
+      <oggetto>FORNITURA DI METADONE CLOROIDRATO GARA AGGREGATA MONZA E BRIANZA</oggetto>
+      <sceltaContraente>26-AFFIDAMENTO DIRETTO IN ADESIONE AD ACCORDO QUADRO/CONVENZIONE</sceltaContraente>
+      <partecipanti/>
+      <aggiudicatari/>
+      <importoAggiudicazione>0</importoAggiudicazione>
+      <tempiCompletamento/>
+      <importoSommeLiquidate>0</importoSommeLiquidate>
+    </lotto>
+    
+
+    <lotto>
+      <cig>54346520B5</cig>
+      <strutturaProponente>
+        <codiceFiscaleProp>80114370150</codiceFiscaleProp>
+        <denominazione>CASA CIRCONDARILE MILANO</denominazione>
+      </strutturaProponente>
+      <oggetto>CONVENZIONE CONSIP - FORNITURA GAS NATURALE 6.</oggetto>
+      <sceltaContraente>26-AFFIDAMENTO DIRETTO IN ADESIONE AD ACCORDO QUADRO/CONVENZIONE</sceltaContraente>
+      <partecipanti/>
+      <aggiudicatari/>
+      <importoAggiudicazione>0</importoAggiudicazione>
+      <tempiCompletamento/>
+      <importoSommeLiquidate>0</importoSommeLiquidate>
+    </lotto>
+    
+
+    <lotto>
+      <cig>5521626DE8</cig>
+      <strutturaProponente>
+        <codiceFiscaleProp>91022300288</codiceFiscaleProp>
+        <denominazione>CONSORZIO DI BONIFICA ADIGE EUGANEO</denominazione>
+      </strutturaProponente>
+      <oggetto>IMPINGUAMENTO CANALI TEZZON -FONDA&amp;apos;-FOSSETTA</oggetto>
+      <sceltaContraente>22-PROCEDURA NEGOZIATA DERIVANTE DA AVVISI CON CUI SI INDICE LA GARA</sceltaContraente>
+      <partecipanti/>
+      <aggiudicatari/>
+      <importoAggiudicazione>0</importoAggiudicazione>
+      <tempiCompletamento/>
+      <importoSommeLiquidate>0</importoSommeLiquidate>
+    </lotto>
+    
+
+    <lotto>
+      <cig>5499640E7C</cig>
+      <strutturaProponente>
+        <codiceFiscaleProp>80078750587</codiceFiscaleProp>
+        <denominazione>ISTITUTO NAZIONALE DELLA PREVIDENZA SOCIALE</denominazione>
+      </strutturaProponente>
+      <oggetto>FORNITURA ENERGIA ELETTRICA - ADESIONE ALLA CONVENZIONE CONSIP EE11</oggetto>
+      <sceltaContraente>26-AFFIDAMENTO DIRETTO IN ADESIONE AD ACCORDO QUADRO/CONVENZIONE</sceltaContraente>
+      <partecipanti/>
+      <aggiudicatari/>
+      <importoAggiudicazione>0</importoAggiudicazione>
+      <tempiCompletamento/>
+      <importoSommeLiquidate>0</importoSommeLiquidate>
+    </lotto>
+    
+
+    <lotto>
+      <cig>5504603E15</cig>
+      <strutturaProponente>
+        <codiceFiscaleProp>02003000227</codiceFiscaleProp>
+        <denominazione>FONDAZIONE BRUNO KESSLER</denominazione>
+      </strutturaProponente>
+      <oggetto>FORNITURA GAS NATURALE E SERVIZI CONNESSI</oggetto>
+      <sceltaContraente>26-AFFIDAMENTO DIRETTO IN ADESIONE AD ACCORDO QUADRO/CONVENZIONE</sceltaContraente>
+      <partecipanti/>
+      <aggiudicatari/>
+      <importoAggiudicazione>0</importoAggiudicazione>
+      <tempiCompletamento/>
+      <importoSommeLiquidate>0</importoSommeLiquidate>
+    </lotto>
+    
+
+    <lotto>
+      <cig>54918967F1</cig>
+      <strutturaProponente>
+        <codiceFiscaleProp>80114370150</codiceFiscaleProp>
+        <denominazione>CASA CIRCONDARILE MILANO</denominazione>
+      </strutturaProponente>
+      <oggetto>FORNITURA ENERGIA ELETTRICA 11 LOTTO 2</oggetto>
+      <sceltaContraente>26-AFFIDAMENTO DIRETTO IN ADESIONE AD ACCORDO QUADRO/CONVENZIONE</sceltaContraente>
+      <partecipanti/>
+      <aggiudicatari/>
+      <importoAggiudicazione>0</importoAggiudicazione>
+      <tempiCompletamento/>
+      <importoSommeLiquidate>0</importoSommeLiquidate>
+    </lotto>
+  </data>
+</legge190:pubblicazione>
